@@ -36,9 +36,10 @@ const POEM = [
   "I hold the keys until they're warm,",
   'then give her once.',
   '',
-  'Back at my desk the cursor waits.',
+  'Tonight the agent asks again.',
   'I press always',
-  'to see if I can.',
+  'to see if I can',
+  'sleep before I hear my car.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), POEM);
